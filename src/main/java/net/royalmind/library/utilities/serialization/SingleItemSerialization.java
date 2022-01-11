@@ -117,12 +117,12 @@ public class SingleItemSerialization
 
     public static ItemStack getItem(final JSONObject jsonObject, final int n) {
         try {
-//            final int int1 = jsonObject.getInt("id");
-//            final int optInt = jsonObject.optInt("amount", 1);
-//            final int optInt2 = jsonObject.optInt("data", 0);
-            final String name = jsonObject.getString("name");
-            final int amount = jsonObject.optInt("amount", 1);
-            final int data =  jsonObject.optInt("data", 0);
+            final String int1 = jsonObject.getString("id");
+            final int optInt = jsonObject.optInt("amount", 1);
+            final int optInt2 = jsonObject.optInt("data", 0);
+//            final String name = jsonObject.getString("name");
+//            final int amount = jsonObject.optInt("amount", 1);
+//            final int data =  jsonObject.optInt("data", 0);
 
             String string = null;
             Map<Enchantment, Integer> enchantments = null;
